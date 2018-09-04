@@ -45,6 +45,8 @@ module GraphdocRuby
     # (default: nil)
     attr_accessor :schema_name
 
+    attr_accessor :auth
+
     # no doc
     attr_reader :mtime
 

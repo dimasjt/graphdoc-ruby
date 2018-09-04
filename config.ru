@@ -12,6 +12,11 @@ GraphdocRuby.configure do |config|
   #     'User-Agent' => 'my-client',
   #   }
   # }
+
+  config.auth = {
+    username: 'username',
+    password: 'password'
+  }
 end
 
-run(GraphdocRuby::Application)
+run(GraphdocRuby::Engine)
